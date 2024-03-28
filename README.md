@@ -53,7 +53,7 @@ A Spring Boot REST API web service for an online hotel booking application, deve
 - Update the port number, username and password as per your local database configuration.
 ```java
 server.port=8808
-spring.datasource.url=jdbc:mysql://localhost:3309/OliveStays
+spring.datasource.url=jdbc:mysql://localhost:3306/OliveStays
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.datasource.username=your_username_here
 spring.datasource.password=your_password_here
